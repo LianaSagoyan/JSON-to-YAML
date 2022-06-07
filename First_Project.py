@@ -1,20 +1,3 @@
-# virtualenv venv
-
-# venv\Scripts\activate
-
-# import json
-# import yaml
-
-# with open('task_urls.json', 'r') as j:
-# 	with open('task_yaml.yaml', "w") as y:
-# 		json_data = json.loads(j.read())
-# 		converted_data = json.dumps(json_data)
-
-# 		yaml_data = yaml.safe_load(converted_data)
-# 		converted_yaml_data = yaml.dump(yaml_data)
-# 		y.write(converted_yaml_data)
-
-
 import json
 import yaml
 
@@ -25,7 +8,7 @@ def my_func(input_file, output_file):
 			with open(output_file, "w") as y:
 				json_data = json.loads(j.read())
 				converted_data = json.dumps(json_data)
-d
+
 				yaml_data = yaml.safe_load(converted_data)
 				converted_yaml_data = yaml.dump(yaml_data)
 				y.write(converted_yaml_data)
